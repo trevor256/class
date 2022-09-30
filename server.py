@@ -11,7 +11,7 @@ class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
 # Create an object of the above class
 handler_object = MyHttpRequestHandler
 
-PORT = 443
+PORT = 7171
 my_server = socketserver.TCPServer(("", PORT), handler_object)
 
 # Star the server
