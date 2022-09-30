@@ -16,3 +16,4 @@ my_server = socketserver.TCPServer(("", PORT), handler_object)
 
 # Star the server
 my_server.serve_forever()
+print('http://localhost:7171/index.html) 
